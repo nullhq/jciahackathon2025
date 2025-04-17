@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/prunes2d_01.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>JCIA Hackathon 2025</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="./images/prunes2d_01.png" alt="Trois prunes" class="image">
+      <h1 class="header_title">JCIA Hackathon 2025</h1>
+      <img src="./images/prune2d_00.png" alt="Deux prunes" class="image">
+    </div>
+    <p><strong>Tri automatique des prunes</strong> en six catégories ( <strong>de bonne qualité</strong>, <strong>non mûre</strong>, <strong>tachetée</strong>, <strong>fissuré</strong>, <strong>meurtrie</strong> et <strong>pourrie</strong> ).</p>
+  </header>
+  <div class="app">
+    <div class="preview_image">
+      <img src="./images/unaffected.png" alt="prévisualisation" class="preview_image">
+      <div class="upload_plum_image">
+        <input type="file" id="file_input" accept="image/*" class="file_input" hidden>
+        <label for="file_input" class="upload_plum_image_button"> 
+          <img src="./images/image-up.svg" alt="image upload icon" class="upload_plum_image_icon">
+        </label>
+      </div>
+    </div>
+    <div class="classes_predite">
+      <p><strong>Prune de bonne qualité (unaffected)</strong></p>
+    </div>
+  </div>
+  <footer>avec ✨ par <strong>Taboutsa Fredy</strong> pour la JCIA 2025</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
